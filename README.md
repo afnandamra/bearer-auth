@@ -18,7 +18,7 @@ Authentication Server Phase 2: Token (Bearer) Authentication
 
 - Clone the repository from GitHub
 - Run the command `npm i express dotenv morgan base-64 bcrypt cors mongoose jsonwebtoken jest @code-fellows/supergoose` to install dependencies
-- create .env file with PORT variable and `MONGODB_URI=mongodb://localhost:27017/auth_2`
+- create .env file with PORT variable and `MONGODB_URI=mongodb://localhost:27017/auth_2` and a secret key `SECRET=xyz`
 
 ### Test
 
@@ -29,6 +29,7 @@ Authentication Server Phase 2: Token (Bearer) Authentication
 
 - Start the server using `nodemon`
 - Visit http://localhost:PORT at the PORT number you've assigned in your .env
+- put the [Heroku Link](https://afnan-bearer-auth.herokuapp.com/) inside this one [https://javascript-401.netlify.app/](https://javascript-401.netlify.app/), choose Bearer Auth, and have fun :smile:
 
 ## Documentation
 
