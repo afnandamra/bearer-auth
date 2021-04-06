@@ -29,7 +29,7 @@ Authentication Server Phase 2: Token (Bearer) Authentication
 
 - Start the server using `nodemon`
 - Visit http://localhost:PORT at the PORT number you've assigned in your .env
-- put the [Heroku Link](https://afnan-bearer-auth.herokuapp.com/) inside this one [https://javascript-401.netlify.app/](https://javascript-401.netlify.app/), choose Bearer Auth, and have fun :smile:
+- put the [Heroku Link](https://afnan-bearer-auth.herokuapp.com/) inside this one [front-end app](https://javascript-401.netlify.app/bearer-auth), choose Bearer Auth, and have fun :smile:
 
 ## Documentation
 
